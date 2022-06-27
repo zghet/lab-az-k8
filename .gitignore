@@ -1,2 +1,4 @@
 .terraform.lock.hcl
 .terraform/providers/*
+terraform.tfstate
+hello.txxt
