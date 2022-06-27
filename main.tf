@@ -14,7 +14,7 @@ resource "azurerm_kubernetes_cluster" "k8cluster" {
         node_count          = var.system_node_count
         vm_size             = "Standar_D2_v2"   
     }
-
+ 
     identity {
         type = "SystemAssigned"
     }

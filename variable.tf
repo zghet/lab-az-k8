@@ -6,7 +6,7 @@ variable "location" {
   type        = string
   description = "Resources location in Azure"
 }
-variable "cluster_name" {
+variable "cluster_name" { 
   type        = string
   description = "AKS name in Azure"
 }
