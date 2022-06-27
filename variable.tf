@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  type        = string
+  type        = string 
   description = "RG name in Azure"
 }
 variable "location" {
